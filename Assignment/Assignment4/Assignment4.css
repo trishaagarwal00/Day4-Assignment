@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, lightpink, lightorange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px #aaa;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
