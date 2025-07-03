@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+        .container #myHeader {
+            color: red;
+        }
+
+       
+        div + h3 {
+            color: green;
+        }
+
+        .myText1 + .myText2 {
+            color: orange;
+        }
+
+     
+        .myInput[type="text"], input[type="email"] {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="myHeader">Welcome to CSS Practice</h1>
+    </div>
+
+    <div>This is a div element.</div>
+    <h3>This h3 is immediately after the div</h3>
+
+    <p class="myText1">This is paragraph 1</p>
+    <p class="myText2">This paragraph should be orange</p>
+
+    <form>
+        <input type="text" class="myInput" placeholder="Enter text">
+        <input type="email" placeholder="Enter email">
+    </form>
+</body>
+</html>
